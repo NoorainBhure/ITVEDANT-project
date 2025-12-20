@@ -1,0 +1,67 @@
+
+.hero-section{
+    min-height:100vh;
+    background-image: url("campus.jpg");
+    background-size: cover;            
+    background-position: center;     
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    min-height:100vh;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+
+.campus-img{
+    width:260px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.6);
+}
+
+.login-body{
+         background-image: url("campus.jpg");
+    background-size: cover;            
+    background-position: center;         background-repeat: no-repeat;
+}
+
+.login-card{
+    width:350px;
+    background:#1a1a1a;
+    border:none;
+}
+.logo{
+    height: 60px;
+    border-radius: 50px;
+    
+}
+.about-img{
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    
+    transform: translateY(-12);
+}
+.dept-card{
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.dept-card img{
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.dept-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
